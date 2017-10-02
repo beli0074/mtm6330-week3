@@ -1,8 +1,18 @@
-$deep-grey: #282c34;
-$white-text: rgba(255,255,255, .89);
+$background-color: #A9B4C2;
+$header-color: #5E6572;
+$text-color: #1C2321;
+$footer-color: #EEF1EF;
+
+header {
+  background-color: $header-color;
+}
 
 body {
-  background-color: $deep-grey;
+  background-color: $background;
 
-  color: $white-text;
+  color: $text-color;
+}
+
+footer {
+  background-color: $footer-color;
 }
